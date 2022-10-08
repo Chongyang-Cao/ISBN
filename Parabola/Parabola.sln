@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parabola", "Parabola\Parabola.csproj", "{2B8FDF58-6566-4C68-A2C4-CE95C3BA6465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B8FDF58-6566-4C68-A2C4-CE95C3BA6465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8FDF58-6566-4C68-A2C4-CE95C3BA6465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8FDF58-6566-4C68-A2C4-CE95C3BA6465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8FDF58-6566-4C68-A2C4-CE95C3BA6465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64FAD99E-295C-487D-B2D1-3BEC8D1AE4AC}
+	EndGlobalSection
+EndGlobal
