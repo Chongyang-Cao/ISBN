@@ -1,4 +1,4 @@
-﻿string ISBN = "15?881111X";
+﻿string ISBN = "15688?111X";
 double thing = 10;
 double total = 0;
 double mdigit = 0;
@@ -9,7 +9,7 @@ for (int i = 0; i < 10; i++)
     thing = 10 - i;
     if (digit == "?")
     {
-        mdigit = i;
+        mdigit = thing;
     }
     else
     {
@@ -24,8 +24,13 @@ for (int i = 0; i < 10; i++)
         }
     }
 }
-double f = total % 11;
-Console.WriteLine((11 - f) / mdigit);
+double f = (11-(total % 11));
+double r = 11;
+while ((r+f)%mdigit != 0)
+{
+    r += 11;
+}
+Console.WriteLine((r + f) / mdigit);
 
 
 //ISBN = "9514451570";
